@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simplotel</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="bg-container">
+      <div class="top-container">
+        <div class="navbar-container">
+          <div class="navbar">
+            <div>
+              <img
+                class="logo"
+                src="./assets/phoenix-logo.png"
+                alt="brand-logo"
+              />
+            </div>
+            <ul class="nav-items display-mobile-none">
+              <li>Home</li>
+              <li>Order</li>
+              <li>Food</li>
+              <li>Restaurant</li>
+              <li>Testimonial</li>
+              <li>Contact us</li>
+            </ul>
+            <div class="social-media-icons display-mobile-none">
+              <button class="socialmedia-btn">
+                <img
+                  class="icon"
+                  src="./assets/whatsapp_2111774.png"
+                  alt="whatsapp-icon"
+                />
+              </button>
+              <button class="socialmedia-btn">
+                <img
+                  class="icon"
+                  src="./assets/facebook-app-symbol_20837.png"
+                  alt="facebook-icon"
+                />
+              </button>
+            </div>
+            <button class="display-mobile-view menu-btn" onclick="myFunction()">
+              Menu
+            </button>
+          </div>
+
+          <div>
+            <ul class="navbar-mobile" id="mobilenavbar">
+              <li>Home</li>
+              <li>Order</li>
+              <li>Food</li>
+              <li>Restaurant</li>
+              <li>Testimonial</li>
+              <li>Contact us</li>
+              <li>
+                <button class="mobile-view-icon">
+                  <img
+                    class="options-icon"
+                    src="./assets/whatsapp_2111774.png"
+                    alt="whatsapp-icon"
+                  />
+                </button>
+                <button class="mobile-view-icon">
+                  <img
+                    class="options-icon"
+                    src="./assets/facebook-app-symbol_20837.png"
+                    alt="facebook-icon"
+                  />
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="banner-container">
+          <h2 class="banner-heading">Lorem Ipsum</h2>
+        </div>
+      </div>
+      <div class="sub-banners">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+          neque itaque possimus vero rerum doloribus incidunt quaerat
+          consequatur dignissimos pariatur praesentium tempore, at natus impedit
+          mollitia doloremque ea quibusdam laborum?
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+          neque itaque possimus vero rerum doloribus incidunt quaerat
+          consequatur dignissimos pariatur praesentium tempore, at natus impedit
+          mollitia doloremque ea quibusdam laborum?
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+          neque itaque possimus vero rerum doloribus incidunt quaerat
+          consequatur dignissimos pariatur praesentium tempore, at natus impedit
+          mollitia doloremque ea quibusdam laborum?
+        </p>
+      </div>
+      <div class="bottom-container">
+        <h2 class="sub-heading">Lorem Ipsum</h2>
+        <div class="cards-container">
+          <div class="card card-1">
+            <img class="card-img" src="./assets/rooms.jpg" alt="Rooms" />
+            <h3 class="card-heading">ROOMS</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa
+              ducimus maiores? Nam itaque libero atque doloremque eligendi,
+              quidem non maiores ratione iure nisi, illo id saepe explicabo
+              magnam numquam?
+            </p>
+            <button class="learnmore-btn">Learn More</button>
+          </div>
+          <div class="card card-2">
+            <img class="card-img" src="./assets/dining.jpg" alt="DINING" />
+            <h3 class="card-heading">DINING</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa
+              ducimus maiores? Nam itaque libero atque doloremque eligendi,
+              quidem non maiores ratione iure nisi, illo id saepe explicabo
+              magnam numquam?
+            </p>
+            <div><button class="learnmore-btn">Learn More</button></div>
+          </div>
+          <div class="card card-3">
+            <img class="card-img" src="./assets/pool.jpg" alt="POOLS" />
+            <h3 class="card-heading">POOLS</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsa
+              ducimus maiores? Nam itaque libero atque doloremque eligendi,
+              quidem non maiores ratione iure nisi, illo id saepe explicabo
+              magnam numquam?
+            </p>
+            <div><button class="learnmore-btn">Learn More</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("mobilenavbar");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</html>
